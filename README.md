@@ -55,6 +55,8 @@ claude plugin marketplace add OmerMicro/mail-driven-design
 claude plugin install mail-driven-design@mail-driven-design
 ```
 
+Invoke the plugin skill with `/mail-driven-design:mdd`.
+
 </details>
 
 <details>
@@ -78,8 +80,7 @@ Review [the skill](skills/mdd/SKILL.md) before installing. Commands follow the [
 Ask your agent:
 
 ```text
-/mdd Let's coauthor the celebration email for this project and align
-on the outcome before you implement anything.
+/mdd Improve the performance of the service I own.
 ```
 
 **Copyable installation prompt** (for an agent with plugin support):
@@ -90,8 +91,6 @@ documented plugin commands, add its marketplace and install the
 mail-driven-design plugin. Marketplace name: mail-driven-design.
 If plugins aren't supported, explain the standalone skill option first.
 ```
-
-The skill is named **`mdd`** so Copilot can find it when you type `/mdd`. In Claude Code, use `/mail-driven-design:mdd` for the plugin or `/mdd` for a standalone skill. Other hosts may use different invocation or suggestion rules.
 
 The agent chooses an editable coauthoring surface available to it, with a plain-text or Markdown file in your editor as the fallback. No special app or canvas required. It preserves your edits and returns the actual result for your final review.
 
