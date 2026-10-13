@@ -6,6 +6,8 @@ This repository packages one portable [Agent Skill](https://agentskills.io/) and
 
 ## Install
 
+After this reviewed branch is merged to the default branch, use the instructions for your agent:
+
 ### GitHub Copilot and other Agent Skill hosts
 
 Preview the skill, then install it with GitHub CLI 2.90.0 or later:
