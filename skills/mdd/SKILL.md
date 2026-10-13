@@ -1,6 +1,6 @@
 ---
-name: mail-driven-design
-description: Coauthor an outcome-focused celebration email, align with the user before implementation, then build and verify the promised result. Use when starting a project, feature, or substantial change where the user wants the intended outcome made clear before work begins.
+name: mdd
+description: Mail-Driven Design (MDD). Coauthor an outcome-focused celebration email, align with the user before implementation, then build and verify the promised result. Use for /mdd, mail-driven-design, or starting a project, feature, or substantial change where the intended outcome should be clear before work begins.
 license: MIT
 ---
 
@@ -40,6 +40,8 @@ Use repository and project context to check feasibility and identify relevant ex
 ## 4. Implement toward the agreed outcome
 
 Make small, cumulative changes that directly serve the aligned promise. Reuse existing capabilities and conventions. Keep the user informed when evidence changes the plan or reveals a meaningful tradeoff; incorporate feedback without overwriting unrelated user work.
+
+Delegate only when expertise, parallelism, or a separate context materially helps. Give any delegated agent the aligned promise, scope, constraints, and evidence required for completion. Otherwise do the work directly; do not add orchestration just to follow this workflow.
 
 Respect the user's authority. Do not send messages, publish, merge, spend money, change access, or perform other consequential external actions unless the user explicitly approves the exact action and its scope. Preparing a draft or implementation does not authorize that action.
 
