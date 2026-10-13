@@ -102,10 +102,12 @@ The agent chooses an editable coauthoring surface available to it, with a plain-
 | Surface | Verified | Not yet verified |
 | --- | --- | --- |
 | Agent Skill / GitHub CLI | Skill validation and remote preview | Full workflow in each host |
-| GitHub Copilot CLI | Local plugin discovery without installing | Marketplace installation and full workflow |
+| GitHub Copilot CLI | Marketplace installation, enabled plugin, and `mdd` skill discovery | Slash-menu suggestions in the current app session and the full workflow |
 | Claude Code | Strict plugin and marketplace validation | Installation and full workflow |
 
 Portable instructions do not guarantee identical behavior across hosts. These are packaging checks, not proof of downstream impact. Final review is still pending.
+
+After installing, start a new session if the skill is not listed. For Copilot, check `/skills info mdd`; this should show the installed skill before you use `/mdd`.
 
 ## Contribute
 
