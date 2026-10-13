@@ -8,7 +8,7 @@
 
 ## The email that started this repo
 
-This repository was built using MDD: we coauthored the launch email, aligned on the promise, then delegated implementation. Here is the public-safe core of that email, not a claim that the launch or final review is complete:
+This repository was built using MDD: we coauthored the launch email, aligned on the promise, then delegated implementation. This is the final public-safe email draft. It remains unsent; final review is still pending.
 
 > **Subject: MDD: Mail-Driven Design**
 >
@@ -16,11 +16,10 @@ This repository was built using MDD: we coauthored the launch email, aligned on 
 >
 > I’m writing the “we shipped it” email before writing the code. Slightly backwards, but hopefully less backwards than shipping something nobody asked for.
 >
-> **MDD - Mail Driven Design**
->
-> - First, write the celebration email:
->   what you achieved, how it helps the reader, and how it makes things better for humankind 🧑‍🚀.
-> - Then delegate the work and build to that promise 👨‍💻.
+> **MDD - Mail Driven Design**\
+> - First, write the celebration email:\
+>   what you achieved, how it helps the reader, and how it makes things better for humankind 🧑‍🚀.\
+> - Then delegate the work and build to that promise 👨‍💻.\
 > - The agent brings the result back to you for your final review 🎉.
 >
 > 📧 Write the celebration email → 🛠️ Delegate and build → 👀 Your final review → 🏆 Milestone achieved, impact visible, Hall of Fame seat reserved
@@ -35,10 +34,14 @@ This repository was built using MDD: we coauthored the launch email, aligned on 
 > copilot plugin install mail-driven-design@mail-driven-design
 > ```
 >
-> Try it out!
-> Contributions are more than welcome!
+> Try it out!\
+> Contributions are more than welcome!\
+> **Repo:** [Mail-Driven Design on GitHub](https://github.com/OmerMicro/mail-driven-design)
 >
 > Like and subscribe. 👍
+>
+> Thanks!\
+> Omer
 
 The email defines the intended win. User alignment comes **before implementation**; evidence comes **before claiming success**. Delegation is optional when one agent can do the work.
 

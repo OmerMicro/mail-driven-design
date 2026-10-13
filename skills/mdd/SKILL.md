@@ -24,7 +24,7 @@ Draft a concise, forward-looking email that makes the intended achievement, read
 
 Keep one user-editable canonical draft in the best native editor or genuinely editable surface available. Do not require a particular app, Word document, or canvas. Fall back to a plain-text or Markdown file in the user's editor. Use approval questions for decisions, never as the container for a full draft.
 
-Reread the canonical draft before each revision or requested mailbox synchronization. Preserve the user's exact wording and untouched sections, including bullets, line breaks, emojis, and code blocks. Apply only the requested changes; do not offer an unsolicited full rewrite. If mailbox and canonical edits conflict, reconcile them with the user rather than overwriting either.
+Reread the canonical draft before each revision or requested synchronization. Preserve the user's exact wording and untouched sections, including bullets, line breaks, emojis, and code blocks. Apply only the requested changes; do not offer an unsolicited full rewrite. If mailbox and canonical edits conflict, reconcile them with the user rather than overwriting either. When the user requests a public repository example, synchronize it from the latest reviewed draft, excluding private recipients and context; do not maintain a divergent marketing rewrite.
 
 Get explicit alignment on the email's promise before implementation. Track draft approval, implementation approval, and send approval separately; none implies the others. Sending always requires separate approval of the exact final content and the send action.
 
