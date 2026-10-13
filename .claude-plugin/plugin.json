@@ -1,0 +1,16 @@
+{
+  "name": "mail-driven-design",
+  "version": "1.0.0",
+  "description": "Coauthor an outcome-focused email, align with the user, then implement and verify its promise.",
+  "author": {
+    "name": "OmerMicro"
+  },
+  "homepage": "https://github.com/OmerMicro/mail-driven-design",
+  "repository": "https://github.com/OmerMicro/mail-driven-design",
+  "license": "MIT",
+  "keywords": [
+    "agent-skill",
+    "coauthoring",
+    "outcome-driven"
+  ]
+}

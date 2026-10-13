@@ -1,0 +1,14 @@
+{
+  "name": "mail-driven-design",
+  "description": "A portable skill for aligning on an outcome before building toward it.",
+  "owner": {
+    "name": "OmerMicro"
+  },
+  "plugins": [
+    {
+      "name": "mail-driven-design",
+      "source": "./",
+      "description": "Coauthor an outcome-focused email, align with the user, then implement and verify its promise."
+    }
+  ]
+}
