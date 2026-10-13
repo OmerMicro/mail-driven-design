@@ -22,9 +22,17 @@ Use what the user has already said. Ask only for missing information that would 
 
 Draft a concise, forward-looking email that makes the intended achievement, reader benefit, and outcome concrete. Keep future promises clearly aspirational; never describe planned work as already achieved.
 
-Use the best genuinely editable coauthoring surface available in the current environment. Do not assume a particular app, canvas, or integration. If no suitable surface exists, provide a plain-text or Markdown draft the user can edit in their own editor. Do not put a full draft into a question or approval prompt when a better editing surface is available.
+Keep one user-editable canonical draft in the best native editor or genuinely editable surface available. Do not require a particular app, Word document, or canvas. Fall back to a plain-text or Markdown file in the user's editor. Use approval questions for decisions, never as the container for a full draft.
 
-Invite the user to review and revise the draft. Apply their feedback surgically: preserve edits and sections they did not ask to change. Get explicit alignment on the email's promise before starting implementation. Do not send the email; sending requires separate approval of both the exact final content and the send action.
+Reread the canonical draft before each revision or requested mailbox synchronization. Preserve the user's exact wording and untouched sections, including bullets, line breaks, emojis, and code blocks. Apply only the requested changes; do not offer an unsolicited full rewrite. If mailbox and canonical edits conflict, reconcile them with the user rather than overwriting either.
+
+Get explicit alignment on the email's promise before implementation. Track draft approval, implementation approval, and send approval separately; none implies the others. Sending always requires separate approval of the exact final content and the send action.
+
+### Only when mailbox synchronization is requested
+
+Use supported native mail tools and the user's authorized scope. Read the existing mailbox draft first and preserve its edits and recipients. Resolve requested recipients, especially distribution lists, to exact addresses through an authoritative directory or existing message metadata. Never silently drop unresolved recipients or substitute individuals for a requested list; surface unresolved names and do not call the draft ready to send.
+
+Convert the canonical draft to the mailbox's supported format faithfully. For Markdown-to-HTML conversion, preserve wording and formatting, including lists, line breaks, emojis, and code blocks. After saving, reread the persisted body and recipients to verify the intended result. If verification is unavailable or fails, report that gap instead of claiming synchronization succeeded. Saving a draft does not authorize sending it.
 
 ## 3. Turn the promise into a small plan
 
@@ -54,3 +62,5 @@ Run the smallest relevant checks that demonstrate the acceptance criteria. Inspe
 - What remains incomplete, uncertain, or dependent on external input.
 
 Keep intended outcomes, implementation status, and verified results distinct. Do not claim the email's promise was fulfilled until the evidence supports that conclusion. Return the actual result for the user's final review.
+
+When installation or distribution is part of the promise, provide real commands and precise host support. Distinguish documented syntax from an installation actually verified. Do not leave placeholders in a ready-to-send draft; disclose unresolved installation details.

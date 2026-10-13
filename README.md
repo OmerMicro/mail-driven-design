@@ -18,13 +18,22 @@ This repository was built using MDD: we coauthored the launch email, aligned on 
 >
 > **MDD - Mail Driven Design**
 >
-> First, write the celebration email: what you achieved, how it helps the reader, and how it makes things better for humankind 🧑‍🚀.
-> Then delegate the work and build to that promise 👨‍💻.
-> The agent brings the result back to you for your final review 🎉.
+> - First, write the celebration email:
+>   what you achieved, how it helps the reader, and how it makes things better for humankind 🧑‍🚀.
+> - Then delegate the work and build to that promise 👨‍💻.
+> - The agent brings the result back to you for your final review 🎉.
 >
 > 📧 Write the celebration email → 🛠️ Delegate and build → 👀 Your final review → 🏆 Milestone achieved, impact visible, Hall of Fame seat reserved
 >
 > **Install in a click of a prompt** 😉
+>
+> ```sh
+> copilot plugin marketplace add OmerMicro/mail-driven-design
+> ```
+>
+> ```sh
+> copilot plugin install mail-driven-design@mail-driven-design
+> ```
 >
 > Try it out!
 > Contributions are more than welcome!
@@ -42,6 +51,9 @@ One [Agent Skill](https://agentskills.io/specification), packaged for plugin mar
 
 ```sh
 copilot plugin marketplace add OmerMicro/mail-driven-design
+```
+
+```sh
 copilot plugin install mail-driven-design@mail-driven-design
 ```
 
